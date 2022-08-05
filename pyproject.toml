@@ -6,9 +6,10 @@ authors = ["bkuehlhorn <bkuehlhorn@acm.org>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+black = "^22.6.0"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+pytest = "^7.0"
 pre-commit = "^2.20.0"
 
 [build-system]
